@@ -13,6 +13,7 @@
 		9CB982AA1EB66BC200C958CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB982A81EB66BC200C958CE /* Main.storyboard */; };
 		9CB982AC1EB66BC200C958CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB982AB1EB66BC200C958CE /* Assets.xcassets */; };
 		9CB982AF1EB66BC200C958CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB982AD1EB66BC200C958CE /* LaunchScreen.storyboard */; };
+		9CB982B81EB670B300C958CE /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB982B71EB670B300C958CE /* Project.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9CB982AB1EB66BC200C958CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB982AE1EB66BC200C958CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB982B01EB66BC200C958CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB982B71EB670B300C958CE /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		A50287B3CD8EEF60B0D95091 /* Pods-AlamofireObjectMapperSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireObjectMapperSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireObjectMapperSample/Pods-AlamofireObjectMapperSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 		9CB982A31EB66BC200C958CE /* AlamofireObjectMapperSample */ = {
 			isa = PBXGroup;
 			children = (
+				9CB982B61EB6700C00C958CE /* Models */,
 				9CB982A41EB66BC200C958CE /* AppDelegate.swift */,
 				9CB982A61EB66BC200C958CE /* ViewController.swift */,
 				9CB982A81EB66BC200C958CE /* Main.storyboard */,
@@ -77,6 +80,14 @@
 				9CB982B01EB66BC200C958CE /* Info.plist */,
 			);
 			path = AlamofireObjectMapperSample;
+			sourceTree = "<group>";
+		};
+		9CB982B61EB6700C00C958CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CB982B71EB670B300C958CE /* Project.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		D2D945D01E8DC24D7C8FF033 /* Pods */ = {
@@ -213,6 +224,7 @@
 			files = (
 				9CB982A71EB66BC200C958CE /* ViewController.swift in Sources */,
 				9CB982A51EB66BC200C958CE /* AppDelegate.swift in Sources */,
+				9CB982B81EB670B300C958CE /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +388,7 @@
 				9CB982B51EB66BC200C958CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

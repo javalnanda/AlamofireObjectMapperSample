@@ -6,5 +6,6 @@ target 'AlamofireObjectMapperSample' do
   use_frameworks!
 
   # Pods for AlamofireObjectMapperSample
+  pod 'Alamofire', '~> 4.4'
   pod 'AlamofireObjectMapper', '~> 4.0'
 end
