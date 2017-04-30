@@ -1,0 +1,90 @@
+{
+	"err": 0,
+	"result": [{
+		"id": 71930,
+		"account_id": 40869,
+		"status": "enabled",
+		"settings_data": {
+			"time_format": "12h",
+			"timezone": "US/Pacific",
+			"fingerprint_versions": {
+				"browser.browser-js": 1
+			},
+			"integrations": {
+				"jira": {},
+				"datadog": {},
+				"bitbucket": {},
+				"github": {},
+				"trello": {
+					"board_id": "xxx",
+					"enabled": true,
+					"access_token_user_id": 1234,
+					"list_id": "xxxxx"
+				},
+				"slack": {
+					"channel_id": "xxxx",
+					"enabled": true,
+					"access_token_user_id": "xx"
+				},
+				"webhook": {},
+				"victorops": {},
+				"asana": {},
+				"pivotal": {},
+				"campfire": {},
+				"sprintly": {},
+				"pagerduty": {},
+				"hipchat": {},
+				"email": {
+					"enabled": true
+				},
+				"flowdock": {}
+			}
+		},
+		"date_created": 1468068105,
+		"date_modified": 1493409629,
+		"name": "Android_ParentApp"
+	}, {
+		"id": 71931,
+		"account_id": 40869,
+		"status": "enabled",
+		"settings_data": {
+			"time_format": "12h",
+			"timezone": "US/Pacific",
+			"fingerprint_versions": {
+				"browser.browser-js": 1
+			},
+			"integrations": {
+				"jira": {},
+				"datadog": {},
+				"bitbucket": {},
+				"github": {},
+				"trello": {
+					"board_id": "xxxx",
+					"enabled": true,
+					"access_token_user_id": 1234,
+					"list_id": "xxxxx"
+				},
+				"slack": {
+					"channel_id": "xxxxx",
+					"enabled": true,
+					"access_token_user_id": "xxx"
+				},
+				"webhook": {},
+				"victorops": {},
+				"asana": {},
+				"pivotal": {},
+				"campfire": {},
+				"sprintly": {},
+				"pagerduty": {},
+				"hipchat": {},
+				"email": {
+					"enabled": true
+				},
+				"flowdock": {}
+			}
+		},
+		"date_created": 1468068142,
+		"date_modified": 1493409658,
+		"name": "Android_TeacherApp"
+	}]
+}
