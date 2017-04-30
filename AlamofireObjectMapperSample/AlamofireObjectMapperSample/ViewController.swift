@@ -35,7 +35,7 @@ class ViewController: UIViewController {
             case .success:
                 self.projects = response.result.value ?? []
                 for project in self.projects {
-                    print(project.name)
+                    print(project.name ?? "")
                 }
             case .failure(let error):
                 print(error)
